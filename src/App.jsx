@@ -11,18 +11,14 @@ function App() {
       <div>
         <h1>Dictionary App</h1>
       </div>
-      
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <input id="ser" type="text" placeholder="Enter a word to search meaning" /><button>Search</button>
+      <br></br>
+      <hr></hr>
+     <details id="serchResults">
+      <summary>Meanings</summary>
+      <h6>Meaning of the word</h6>
+     </details> 
+     
     </>
   )
 }
